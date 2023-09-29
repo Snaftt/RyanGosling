@@ -1,0 +1,32 @@
+.mying1 { width:400px;
+  height:600px;
+  object-fit:cover;
+  border-radius:100%;
+  background-position:center;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  border: 6px solid #555;
+  border-color:#e0218a; }
+
+.mying2 {display: block;
+  margin-left:auto;
+  margin-right: auto; }
+
+h2 { color:#e0218a;
+   font-size:60px;
+   text-align:center; }
+
+p { color:#e0218a;
+ text-align:center;
+  font-size:50px; }
+
+hr { border-top: 8px solid #bbb;
+  border-radius: 5px; }
+
+span { color:#e0218a;
+  font-size:100px; 
+  margin: 120px;
+   }
+
+
