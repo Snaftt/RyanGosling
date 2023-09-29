@@ -13,9 +13,17 @@
   margin-left:auto;
   margin-right: auto; }
 
+@font-face { font-family:"barbie";
+  src:url('barbie.ttf') format('truetype');
+
+}
+
+
+
 h2 { color:#e0218a;
-   font-size:60px;
-   text-align:center; }
+  font-size:60px;
+  text-align:center;
+  font-family:barbie; }
 
 p { color:#e0218a;
  text-align:center;
@@ -24,9 +32,24 @@ p { color:#e0218a;
 hr { border-top: 8px solid #bbb;
   border-radius: 5px; }
 
-span { color:#e0218a;
-  font-size:100px; 
-  margin: 120px;
-   }
+Span { color:#e0218a;
+  font-size:50px; 
+  margin: 120px; }
 
+.movies { 
+ margin: 100px } 
 
+.Drive { width:400px;
+  height:600px; }
+
+.LaLa { width:400px;
+  height:600px;}
+
+.TNG { width:400px;
+  height:600px;
+}
+
+.TextM {
+margin: 100px
+
+}
