@@ -32,13 +32,6 @@ p { color:#e0218a;
 hr { border-top: 8px solid #bbb;
   border-radius: 5px; }
 
-Span { color:#e0218a;
-  font-size:50px; 
-  margin: 120px; }
-
-.movies { 
- margin: 100px } 
-
 .Drive { width:400px;
   height:600px; }
 
@@ -46,10 +39,17 @@ Span { color:#e0218a;
   height:600px;}
 
 .TNG { width:400px;
-  height:600px;
-}
+  height:600px; }
 
 .TextM {
-margin: 100px
+margin: 100px; }
 
+.movie {
+  margin: 109px;
+}
+
+span {
+ margin: 213px;
+ font-size:60px;
+ font-family:barbie;
 }
