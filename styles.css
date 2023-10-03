@@ -25,9 +25,12 @@ h2 { color:#e0218a;
   text-align:center;
   font-family:barbie; }
 
-p { color:#e0218a;
- text-align:center;
-  font-size:50px; }
+p { text-align:center;
+  font-size:50px;
+  font-family:barbie; }
+
+ul { font-size:50px;
+ font-family:barbie; }
 
 hr { border-top: 8px solid #bbb;
   border-radius: 5px; }
