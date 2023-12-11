@@ -35,24 +35,24 @@ ul { font-size:50px;
 hr { border-top: 8px solid #bbb;
   border-radius: 5px; }
 
-.Drive { width:400px;
-  height:600px; }
+.Drive { width:250px;
+  height:370px; }
 
-.LaLa { width:400px;
-  height:600px;}
+.LaLa { width:250px;
+  height:370px;}
 
-.TNG { width:400px;
-  height:600px; }
+.TNG { width:250px;
+  height:370px; }
 
 .TextM {
-margin: 100px; }
+margin: 150px; }
 
 .movie {
-  margin: 109px;
+  margin: 145px;
 }
 
 span {
- margin: 213px;
+ margin: 170px;
  font-size:60px;
  font-family:barbie;
 }
