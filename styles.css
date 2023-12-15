@@ -48,7 +48,7 @@ margin: 150px; }
 .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 6px;
 }
 
 .row::after {
@@ -57,10 +57,15 @@ margin: 150px; }
   clear: both;
 }
 
+.dates {
+font-family: sans-serif;
 
-span {
- margin: 170px;
- font-size:60px;
- font-family:barbie;
 }
 
+px {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: Gray;
+ 
+}
