@@ -69,3 +69,42 @@ px {
   color: Gray;
  
 }
+
+@media (max-width: 600px) {
+    .dates {
+        font-size: 20px; /* Adjust as needed */
+    }
+
+    hr {
+        border-top: 4px solid #bbb; /* Make the line thinner */
+    }
+
+    .column p { /* Targets Muscular, Kenough, Majestic */
+        font-size: 20px; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 600px) {
+    .dates {
+        font-size: 20px; /* Adjust as needed */
+    }
+
+    hr {
+        width: 80%; /* Make it smaller */
+        margin: 10px auto; /* Center it properly */
+        border-top: 4px solid #bbb; /* Make it thinner */
+    }
+
+    .column p { /* Targets Muscular, Kenough, Majestic */
+        font-size: 20px; /* Adjust as needed */
+    }
+}
+
+.gif-button {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centers the button */
+    cursor: pointer;
+}
+
