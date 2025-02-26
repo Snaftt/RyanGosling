@@ -8,8 +8,6 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    min-width: 1024px; /* Forces desktop width */
-    overflow-x: auto; /* Enables horizontal scrolling if needed */
 }
 
 /* Responsive Images */
@@ -20,6 +18,7 @@ img {
     margin: auto;
 }
 
+/* Profile Images */
 .mying1 {
     width: 400px;
     height: 600px;
@@ -35,24 +34,19 @@ img {
 /* Headings and Text */
 h2 {
     color: #e0218a;
-    font-size: 60px;
-    text-align: center;
+    font-size: 50px;
 }
 
 p {
-    font-size: 50px;
-}
-
-ul {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 /* Horizontal Line */
 hr {
-    width: 100vw; /* Forces full width beyond container */
-    border-top: 8px solid #bbb;
+    width: 80%;
+    border-top: 5px solid #bbb;
     border-radius: 5px;
-    margin: 0; /* Prevents automatic centering */
+    margin: 20px auto;
 }
 
 /* Responsive Columns */
@@ -82,10 +76,27 @@ footer {
     color: gray;
 }
 
-/* Remove all mobile responsiveness */
-@media (max-width: 600px) {
-    body {
-        width: 1024px; /* Locks the width to desktop size */
-        overflow-x: scroll; /* Allows scrolling */
+/* ✅ Galaxy S22 Ultra & Mobile Optimization */
+@media (max-width: 412px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    p, ul {
+        font-size: 18px;
+    }
+
+    .column {
+        width: 100%; /* Stack columns for better readability */
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    hr {
+        width: 90%;
     }
 }
