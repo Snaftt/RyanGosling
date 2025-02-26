@@ -1,45 +1,53 @@
- 
-.mying1 { width:400px;
-  height:600px;
-  object-fit:cover;
-  border-radius:100%;
-  background-position:center;
+.mying1 {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 100%;
+  background-position: center;
   display: block;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   border: 6px solid #555;
-  border-color:#e0218a; }
-
-.mying2 {display: block;
-  margin-left:auto;
-  margin-right: auto; }
-
-@font-face { font-family:"barbie";
-  src:url('barbie.ttf') format('truetype');
-
+  border-color: #e0218a;
 }
 
+.mying2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+@font-face {
+  font-family: "barbie";
+  src: url('barbie.ttf') format('truetype');
+}
 
-h2 { color:#e0218a;
-  font-size:60px;
-  text-align:center;
-  font-family:barbie; }
+h2 {
+  color: #e0218a;
+  font-size: 60px;
+  text-align: center;
+  font-family: barbie;
+}
 
-p { text-align:center;
-  font-size:50px;
-  font-family:barbie; }
+p {
+  text-align: center;
+  font-size: 50px;
+  font-family: barbie;
+}
 
-ul { font-size:50px;
- font-family:barbie; }
+ul {
+  font-size: 50px;
+  font-family: barbie;
+}
 
-hr { border-top: 8px solid #bbb;
-  border-radius: 5px; }
-
+hr {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
 
 .TextM {
-margin: 150px; }
-
+  margin: 150px;
+}
 
 * {
   box-sizing: border-box;
@@ -58,8 +66,7 @@ margin: 150px; }
 }
 
 .dates {
-font-family: sans-serif;
-
+  font-family: sans-serif;
 }
 
 px {
@@ -67,44 +74,28 @@ px {
   padding: 3px;
   background-color: white;
   color: Gray;
- 
 }
 
 @media (max-width: 600px) {
-    .dates {
-        font-size: 20px; /* Adjust as needed */
-    }
+  .dates {
+    font-size: 20px;
+  }
 
-    hr {
-        border-top: 4px solid #bbb; /* Make the line thinner */
-    }
+  hr {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 4px solid #bbb;
+  }
 
-    .column p { /* Targets Muscular, Kenough, Majestic */
-        font-size: 20px; /* Adjust as needed */
-    }
-}
-
-@media (max-width: 600px) {
-    .dates {
-        font-size: 20px; /* Adjust as needed */
-    }
-
-    hr {
-        width: 80%; /* Make it smaller */
-        margin: 10px auto; /* Center it properly */
-        border-top: 4px solid #bbb; /* Make it thinner */
-    }
-
-    .column p { /* Targets Muscular, Kenough, Majestic */
-        font-size: 20px; /* Adjust as needed */
-    }
+  .column p {
+    font-size: 20px;
+  }
 }
 
 .gif-button {
-    width: 150px; /* Adjust size as needed */
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Centers the button */
-    cursor: pointer;
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
 }
-
