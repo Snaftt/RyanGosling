@@ -47,10 +47,10 @@ ul {
 
 /* Horizontal Line */
 hr {
-    width: 75%;
-    border-top: 6px solid #bbb; /* Thinner */
+    width: 100vw;
+    border-top: 8px solid #bbb;
     border-radius: 5px;
-    margin: 15px auto; /* Less spacing */
+    margin: 0; /* Removes automatic centering */
 }
 
 /* Responsive Columns */
