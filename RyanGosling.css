@@ -1,101 +1,100 @@
+@font-face {
+    font-family: "barbie";
+    src: url('barbie.ttf') format('truetype');
+}
+
+body {
+    font-family: barbie, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive Images */
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 .mying1 {
-  width: 400px;
-  height: 600px;
-  object-fit: cover;
-  border-radius: 100%;
-  background-position: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 6px solid #555;
-  border-color: #e0218a;
+    width: 300px; /* Reduced from 400px */
+    height: 450px; /* Reduced from 600px */
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid #e0218a; /* Thinner border */
 }
 
 .mying2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin: auto;
 }
 
-@font-face {
-  font-family: "barbie";
-  src: url('barbie.ttf') format('truetype');
-}
-
+/* Headings and Text */
 h2 {
-  color: #e0218a;
-  font-size: 60px;
-  text-align: center;
-  font-family: barbie;
+    color: #e0218a;
+    font-size: 50px; /* Reduced from 60px */
+    text-align: center;
 }
 
 p {
-  text-align: center;
-  font-size: 50px;
-  font-family: barbie;
+    font-size: 40px; /* Reduced from 50px */
 }
 
 ul {
-  font-size: 50px;
-  font-family: barbie;
+    font-size: 40px; /* Reduced from 50px */
 }
 
+/* Horizontal Line */
 hr {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
+    width: 75%;
+    border-top: 6px solid #bbb; /* Thinner */
+    border-radius: 5px;
+    margin: 15px auto; /* Less spacing */
 }
 
-.TextM {
-  margin: 150px;
-}
-
-* {
-  box-sizing: border-box;
+/* Responsive Columns */
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 6px;
+    width: 30%; /* Slightly smaller */
+    padding: 8px; /* Less padding */
+    box-sizing: border-box;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
+/* Dates */
 .dates {
-  font-family: sans-serif;
+    font-size: 18px; /* Slightly smaller */
+    font-family: sans-serif;
 }
 
-px {
-  text-align: center;
-  padding: 3px;
-  background-color: white;
-  color: Gray;
+/* Footer */
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: white;
+    color: gray;
 }
 
+/* Responsive Design */
 @media (max-width: 600px) {
-  .dates {
-    font-size: 20px;
-  }
+    h2 {
+        font-size: 28px;
+    }
 
-  hr {
-    width: 80%;
-    margin: 10px auto;
-    border-top: 4px solid #bbb;
-  }
+    p, ul {
+        font-size: 18px;
+    }
 
-  .column p {
-    font-size: 20px;
-  }
-}
+    .column {
+        width: 100%;
+    }
 
-.gif-button {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  cursor: pointer;
+    hr {
+        width: 85%;
+    }
 }
