@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: "barbie";
     src: url('barbie.ttf') format('truetype');
 }
@@ -12,18 +12,18 @@ body {
 
 /* Responsive Images */
 img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
 }
 
 .mying1 {
-    width: 300px; /* Reduced from 400px */
-    height: 450px; /* Reduced from 600px */
+    width: 400px;
+    height: 600px;
     object-fit: cover;
     border-radius: 100%;
-    border: 4px solid #e0218a; /* Thinner border */
+    border: 6px solid #e0218a;
 }
 
 .mying2 {
@@ -33,24 +33,24 @@ img {
 /* Headings and Text */
 h2 {
     color: #e0218a;
-    font-size: 50px; /* Reduced from 60px */
+    font-size: 60px;
     text-align: center;
 }
 
 p {
-    font-size: 40px; /* Reduced from 50px */
+    font-size: 50px;
 }
 
 ul {
-    font-size: 40px; /* Reduced from 50px */
+    font-size: 50px;
 }
 
 /* Horizontal Line */
 hr {
-    width: 100vw;
+    width: 80%;
     border-top: 8px solid #bbb;
     border-radius: 5px;
-    margin: 0; /* Removes automatic centering */
+    margin: 20px auto;
 }
 
 /* Responsive Columns */
@@ -61,21 +61,21 @@ hr {
 }
 
 .column {
-    width: 30%; /* Slightly smaller */
-    padding: 8px; /* Less padding */
+    width: 33.33%;
+    padding: 10px;
     box-sizing: border-box;
 }
 
 /* Dates */
 .dates {
-    font-size: 18px; /* Slightly smaller */
+    font-size: 20px;
     font-family: sans-serif;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     color: gray;
 }
@@ -83,11 +83,11 @@ footer {
 /* Responsive Design */
 @media (max-width: 600px) {
     h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     p, ul {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .column {
@@ -95,6 +95,6 @@ footer {
     }
 
     hr {
-        width: 85%;
+        width: 90%;
     }
 }
