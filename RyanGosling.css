@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
     font-family: "barbie";
     src: url('barbie.ttf') format('truetype');
 }
@@ -8,6 +8,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    min-width: 1024px; /* Forces desktop width */
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
 }
 
 /* Responsive Images */
@@ -47,10 +49,10 @@ ul {
 
 /* Horizontal Line */
 hr {
-    width: 80%;
+    width: 100vw; /* Forces full width beyond container */
     border-top: 8px solid #bbb;
     border-radius: 5px;
-    margin: 20px auto;
+    margin: 0; /* Prevents automatic centering */
 }
 
 /* Responsive Columns */
@@ -80,21 +82,10 @@ footer {
     color: gray;
 }
 
-/* Responsive Design */
+/* Remove all mobile responsiveness */
 @media (max-width: 600px) {
-    h2 {
-        font-size: 30px;
-    }
-
-    p, ul {
-        font-size: 20px;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    hr {
-        width: 90%;
+    body {
+        width: 1024px; /* Locks the width to desktop size */
+        overflow-x: scroll; /* Allows scrolling */
     }
 }
