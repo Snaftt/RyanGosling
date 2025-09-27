@@ -1,282 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ryan Gosling</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Gosling Fan Page</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="Ryan Gosling.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        @font-face {
-            font-family: "barbie";
-            src: url('barbie.ttf') format('truetype');
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "barbie", sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #FAF9F6;
-            line-height: 1.6;
-        }
-
-        /* Header Section */
-        .header-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .mying1 {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 6px solid #e0218a;
-            margin-bottom: 20px;
-        }
-
-        .mying2 {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Headings and Text */
-        h2 {
-            color: #e0218a;
-            font-size: 2.5rem;
-            margin: 20px 0;
-        }
-
-        p {
-            font-size: 1.2rem;
-            margin: 10px 0;
-        }
-
-        /* Horizontal Line */
-        hr {
-            width: 80%;
-            border-top: 5px solid #bbb;
-            border-radius: 5px;
-            margin: 30px auto;
-        }
-
-        /* Responsive Columns */
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .column {
-            flex: 1;
-            min-width: 250px;
-            max-width: 300px;
-            padding: 10px;
-        }
-
-        .column img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
-        /* Dates */
-        .dates {
-            font-size: 1.2rem;
-            font-family: sans-serif;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        /* Words Section */
-        .words-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px 0;
-        }
-
-        .word-column {
-            flex: 1;
-            min-width: 150px;
-            padding: 15px;
-            background-color: #f0f0f0;
-            border-radius: 10px;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-
-        /* List Styling */
-        ul {
-            text-align: left;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-        }
-
-        /* Links */
-        a {
-            color: #e0218a;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-            color: gray;
-            margin-top: 30px;
-        }
-
-        .gif-button {
-            max-width: 150px;
-            height: auto;
-            margin-top: 15px;
-        }
-
-        /* Mobile Optimization */
-        @media (max-width: 768px) {
-            h2 {
-                font-size: 2rem;
-            }
-
-            p, ul li {
-                font-size: 1.1rem;
-            }
-
-            .column {
-                min-width: 100%;
-                max-width: 100%;
-            }
-
-            .word-column {
-                min-width: 100%;
-                font-size: 1.3rem;
-            }
-
-            .mying1 {
-                width: 150px;
-                height: 150px;
-            }
-
-            hr {
-                width: 90%;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h2 {
-                font-size: 1.8rem;
-            }
-
-            p, ul li {
-                font-size: 1rem;
-            }
-
-            .header-container {
-                padding: 10px;
-            }
-        }
-    </style>
 </head>
 <body>
-    <div class="header-container">
-        <img src="Mood.png" class="mying1" />
-        <img src="Ryan Gosling.png" class="mying2"/>
-    </div>
-
-    <div>
-        <h2>Who is Ryan Gosling?</h2>
-        <p>Ryan Thomas Gosling is a Canadian actor.</p> 
-        <p>He is prominent in independent film and major studio features in many different genres.</p>
-    </div>
-    
-    <hr>
-    
-    <h2>This is his top 3 movies</h2> 
-    
-    <div class="row">
-        <div class="column">
-            <img src="Drive.png" alt="Drive movie poster">
-            <p class="dates">(2011)</p>
+    <header>
+        <div class="header-content">
+            <img src="Mood.png" alt="Ryan Gosling mood" class="profile-img">
+            <img src="Ryan Gosling.png" alt="Ryan Gosling" class="title-img">
         </div>
+    </header>
 
-        <div class="column">
-            <img src="LaLaLand.png" alt="La La Land movie poster">
-            <p class="dates">(2016)</p>
-        </div>
+    <main>
+        <section class="intro">
+            <h2>Who is Ryan Gosling?</h2>
+            <p>Ryan Thomas Gosling is a Canadian actor.</p> 
+            <p>He is prominent in independent film and major studio features in many different genres.</p>
+        </section>
 
-        <div class="column">
-            <img src="Theniceguys.png" alt="The Nice Guys movie poster">
-            <p class="dates">(2016)</p>
-        </div>
-    </div>
+        <hr>
 
-    <p><a href="Media.html">Other Ryan Gosling Media!</a></p>
+        <section class="top-movies">
+            <h2>His Top 3 Movies</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="Drive.png" alt="Drive movie poster">
+                    <p class="movie-year">(2011)</p>
+                </div>
+                <div class="movie-card">
+                    <img src="LaLaLand.png" alt="La La Land movie poster">
+                    <p class="movie-year">(2016)</p>
+                </div>
+                <div class="movie-card">
+                    <img src="Theniceguys.png" alt="The Nice Guys movie poster">
+                    <p class="movie-year">(2016)</p>
+                </div>
+            </div>
+            <p class="media-link"><a href="Media.html">Other Ryan Gosling Media!</a></p>
+        </section>
 
-    <hr>
+        <hr>
 
-    <h2>Words that Describe him?</h2>
-    
-    <div class="words-row">
-        <div class="word-column">Muscular</div>
-        <div class="word-column">Kenough</div>
-        <div class="word-column">Majestic</div>    
-    </div>
+        <section class="descriptive-words">
+            <h2>Words that Describe Him</h2>
+            <div class="words-grid">
+                <div class="word-card">Muscular</div>
+                <div class="word-card">Kenough</div>
+                <div class="word-card">Majestic</div>
+            </div>
+        </section>
 
-    <hr>
+        <hr>
 
-    <div>
-        <h2>Life history</h2>
-        <ul>
-            <li>Ryan was born on November 12, 1980 in London, Ontario.</li> 
-            <li>The son of Thomas Gosling and Donna Gosling.</li>
-            <li>And brother to Mandi Gosling.</li>
-            <li>Started acting at age 13.</li>
-            <li>He was a child star on the Disney Channel's "The Mickey Mouse Club".</li>
-            <li>Then moved on to other TV programs like "Are You Afraid of the Dark," and "Goosebumps."</li>
-            <li>His first film role was a Jewish neo-Nazi in "The Believer".</li>
-            <li>Known for "La La Land," "Drive," "The Notebook" and more.</li>
-            <li>His most recent movie is "The Fall Guy".</li>
-            <li>He is currently 43 years old.</li>
-        </ul>
-    </div>
+        <section class="biography">
+            <h2>Life History</h2>
+            <ul>
+                <li>Ryan was born on November 12, 1980 in London, Ontario.</li> 
+                <li>The son of Thomas Gosling and Donna Gosling.</li>
+                <li>And brother to Mandi Gosling.</li>
+                <li>Started acting at age 13.</li>
+                <li>He was a child star on the Disney Channel's "The Mickey Mouse Club".</li>
+                <li>Then moved on to other TV programs like "Are You Afraid of the Dark," and "Goosebumps."</li>
+                <li>His first film role was a Jewish neo-Nazi in "The Believer".</li>
+                <li>Known for "La La Land," "Drive," "The Notebook" and more.</li>
+                <li>His most recent movie is "The Fall Guy".</li>
+                <li>He is currently 43 years old.</li>
+            </ul>
+        </section>
 
-    <hr>
+        <hr>
 
-    <div>
-        <h2>Quote</h2>
-        <p>"There's something messed up with my brain." - Ryan Gosling</p>
-    </div>
-
-    <hr>
+        <section class="quote">
+            <h2>Quote</h2>
+            <p>"There's something messed up with my brain." - Ryan Gosling</p>
+        </section>
+    </main>
 
     <footer>
         <p>Author: Snaftt</p>
         <p>Demon On Toast.LLC</p>
         <a href="https://snaftt.neocities.org/" target="_blank">
-            <img src="SNAFTT.gif" alt="Click Me" class="gif-button">
+            <img src="SNAFTT.gif" alt="SNAFTT website" class="footer-gif">
         </a>
     </footer>
 </body>
