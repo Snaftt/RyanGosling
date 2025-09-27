@@ -4,7 +4,201 @@
     <title>Ryan Gosling</title> 
     <link rel="icon" type="image/x-icon" href="Ryan Gosling.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="RyanGosling.css">
+    <style>
+        @font-face {
+            font-family: "barbie";
+            src: url('barbie.ttf') format('truetype');
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "barbie", sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF9F6;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .mying1 {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid #e0218a;
+            margin-bottom: 20px;
+        }
+
+        .mying2 {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Headings and Text */
+        h2 {
+            color: #e0218a;
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        /* Horizontal Line */
+        hr {
+            width: 80%;
+            border-top: 5px solid #bbb;
+            border-radius: 5px;
+            margin: 30px auto;
+        }
+
+        /* Responsive Columns */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .column {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            padding: 10px;
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Dates */
+        .dates {
+            font-size: 1.2rem;
+            font-family: sans-serif;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Words Section */
+        .words-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .word-column {
+            flex: 1;
+            min-width: 150px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* List Styling */
+        ul {
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        /* Links */
+        a {
+            color: #e0218a;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            color: gray;
+            margin-top: 30px;
+        }
+
+        .gif-button {
+            max-width: 150px;
+            height: auto;
+            margin-top: 15px;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 2rem;
+            }
+
+            p, ul li {
+                font-size: 1.1rem;
+            }
+
+            .column {
+                min-width: 100%;
+                max-width: 100%;
+            }
+
+            .word-column {
+                min-width: 100%;
+                font-size: 1.3rem;
+            }
+
+            .mying1 {
+                width: 150px;
+                height: 150px;
+            }
+
+            hr {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            p, ul li {
+                font-size: 1rem;
+            }
+
+            .header-container {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="header-container">
